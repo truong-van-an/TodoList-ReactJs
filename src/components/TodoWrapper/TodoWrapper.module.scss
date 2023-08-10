@@ -1,0 +1,23 @@
+.TodoWrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    background: -webkit-linear-gradient(#E14F3F, #D78F3C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.ListTodo{
+    position: relative;
+    width: 400px;
+    border: 0px solid #ffffff;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}

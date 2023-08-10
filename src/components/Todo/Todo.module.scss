@@ -1,0 +1,36 @@
+.Todo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    color: #ffffff;
+    border-bottom: 1.5px solid #ffffff;
+}
+.Todo:last-child{
+    border: none;
+}
+p{
+    width: 80%;
+    cursor: pointer;
+
+}
+.Icon{
+    flex: 1;
+    display: flex;
+    .IconEdit, .IconTrash{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255,255,255,0.4);
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0px 5px;
+    }
+}
+.completed{
+    text-decoration: line-through;
+    color: #a5a5a5;
+}
